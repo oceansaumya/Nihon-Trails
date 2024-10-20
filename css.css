@@ -1,0 +1,242 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.page1,
+.page2,
+.page3,
+.page4,
+.page5 {
+    min-height: 100vh;
+    width: 100%;
+}
+
+body {
+    position: relative;
+    width: 100vw;
+    height: auto;
+    background: #F5F5DC;
+    font-family: 'Nunito', sans-serif;
+    overflow-x: hidden;
+}
+
+
+.navbar {
+    border-bottom: 2px solid #191970;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 60px;
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.list {
+    display: flex;
+    gap: 100px;
+    list-style: none;
+
+}
+
+.list a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #000;
+
+}
+
+.list a:hover {
+    font-size: 18px;
+    color: #FF4500;
+    background-color: #FFC0CB;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.hero {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.title {
+    font-size: 50px;
+    font-weight: 900;
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 20px;
+    margin-top: 100px;
+}
+
+
+
+.title-text {
+    font-size: 24px;
+    font-weight: 700;
+    color: #191970;
+    margin-top: 20px;
+}
+.title-text p{
+    padding: 20px;
+    margin: 1px;
+}
+
+.btn {
+    width: 120px;
+    height: 40px;
+    margin-top: 40px;
+    border: none;
+    border-radius: 20px;
+    background-color: crimson;
+    color: white;
+    cursor: pointer;
+    margin: 20px;
+}
+
+.btn a {
+    text-decoration: none;
+    color: white;
+}
+
+.img-repeat {
+    background-image: url(flower.png);
+    background-repeat: repeat;
+    background-position: top;
+    background-size: 10px 10px;
+    height: 70vh;
+    width: 100%;
+    z-index: 0;
+}
+
+.page2 {
+    background-image: url(https://i.pinimg.com/enabled/564x/f7/d2/8b/f7d28bfe34bee6a04451cde78f8c0ec6.jpg);
+
+}
+
+
+
+
+.map {
+    margin: 0 auto; 
+    padding: 100px;
+    text-align: center;
+    align-items: center;
+    border-radius: 20px;
+    width: 80%; 
+}
+.map p{
+    text-align: center;
+    font-size: 20px;
+    color: #191970;
+    margin-top: 10px;
+    font-style: italic;
+font-weight: 500;
+background-color: #F5F5DC;
+background-blend-mode: 0.5;
+}
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  padding: 100px;
+}
+
+.gallery-item {
+    width: 30%;
+    margin: 15px;
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.gallery-item img {
+    width: 100%;
+    height: 600px;
+}
+
+
+.tips,
+.stuff {
+    padding: 20px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.up {
+    background-color: #FF4500;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border-color: #fff6f3;
+    position: fixed;
+    left: 94vw;
+    top: 90vh;
+
+}
+.tips{
+    padding: 30px;
+    margin: 30px;
+   align-items: center;
+}
+.tips p{
+    gap: 10px; 
+    text-align: justify;
+}
+#resources {
+    text-align: center;
+    padding: 40px;
+    background-color: #F5F5DC;
+}
+
+.resource-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 50px;
+}
+
+.resource-card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px; 
+    transition: transform 0.3s;
+}
+
+.resource-card img {
+    width: 100%; 
+    height: 400px; /* makes the image fill the card */
+    object-fit: cover;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+   
+}
+
+.resource-card h3 {
+    margin: 15px 0 10px;
+    font-size: 20px;
+    color:#FF4500; 
+}
+
+.resource-card p {
+    padding: 0 15px 15px;
+    font-size: 16px;
+    color: #191970;
+}
+
+.resource-card a {
+    display: inline-block;
+    margin: 15px;
+    padding: 10px 15px;
+    background-color: #FFC0CB;
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
